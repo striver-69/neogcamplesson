@@ -2,6 +2,8 @@
 
 :root{
     --primary-color:#7C3AED;
+    --dark-gray:#6B72B0;
+    --off-white:#F3F4F6;
 }
 
 body{
@@ -81,4 +83,60 @@ hr{
 
 .navigation .link{
     color: white;
+}
+
+
+/* Header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+
+/* Sections */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
