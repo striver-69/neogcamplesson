@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root{
@@ -13,6 +14,7 @@ body{
 hr{
     margin: 2rem 0rem;
 }
+
 
 /* Container */
 
@@ -90,6 +92,7 @@ hr{
 
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img{
@@ -131,6 +134,11 @@ hr{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link{
